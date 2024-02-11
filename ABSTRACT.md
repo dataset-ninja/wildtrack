@@ -10,7 +10,7 @@ Despite significant advancements, particularly with the integration of deep lear
 
 The dataset was acquired using seven high-tech statically positioned cameras with overlapping fields of view. Precisely, three GoPro Hero 4 and four GoPro Hero 3 cameras were used.
 
-<img src="https://github.com/dataset-ninja/wildtrack/assets/120389559/5c6ff509-9a82-4aef-9c2b-8fbcdf8a6771" alt="image" width="1000">
+<img src="https://github.com/dataset-ninja/wildtrack/assets/120389559/5c6ff509-9a82-4aef-9c2b-8fbcdf8a6771" alt="image" width="1200">
 
 <span style="font-size: smaller; font-style: italic;">Synchronized corresponding frames from the seven views.</span>
 
