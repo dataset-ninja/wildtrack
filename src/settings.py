@@ -20,9 +20,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.PubliclyAvailable(
-    source_url="https://www.kaggle.com/datasets/aryashah2k/large-scale-multicamera-detection-dataset"
-)
+LICENSE: License = License.PubliclyAvailable(source_url="https://arxiv.org/abs/1707.09299")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Surveillance()]
 CATEGORY: Category = Category.Surveillance()
 
@@ -33,9 +31,7 @@ RELEASE_DATE: Optional[str] = "2017-07-28"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = (
-    "https://www.kaggle.com/datasets/aryashah2k/large-scale-multicamera-detection-dataset"
-)
+HOMEPAGE_URL: str = "https://www.epfl.ch/labs/cvlab/data/data-wildtrack/"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 13737979
@@ -57,11 +53,11 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/pdf/1707.09299.pdf"
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/abs/1707.09299"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
     "GitHub": "https://github.com/Chavdarova/WILDTRACK-toolkit",
-    "Provenance": "https://www.epfl.ch/labs/cvlab/data/data-wildtrack/",
+    "Kaggle": "https://www.kaggle.com/datasets/aryashah2k/large-scale-multicamera-detection-dataset",
 }
 
 CITATION_URL: Optional[str] = None
@@ -78,8 +74,15 @@ AUTHORS: Optional[List[str]] = [
 ]
 AUTHORS_CONTACTS: Optional[List[str]] = ["tatjana.chavdarova@epfl.ch", "pierre.baque@epfl.ch"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "CH joint research group"
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
+    "Machine Learning group, Idiap Research Institute & Ecole Polytechnique Federale de Lausanne",
+    "CVLab, Ecole Polytechnique Federale de Lausanne",
+    "Computer Vision Lab, ETH Zurich",
+]
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
+    "https://www.idiap.ch/en",
+    "https://vision.ee.ethz.ch/",
+]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
