@@ -75,9 +75,9 @@ AUTHORS: Optional[List[str]] = [
 AUTHORS_CONTACTS: Optional[List[str]] = ["tatjana.chavdarova@epfl.ch", "pierre.baque@epfl.ch"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
-    "Machine Learning group, Idiap Research Institute & Ecole Polytechnique Federale de Lausanne",
-    "CVLab, Ecole Polytechnique Federale de Lausanne",
-    "Computer Vision Lab, ETH Zurich",
+    "Idiap Research Institute, Switzerland",
+    "Ecole Polytechnique Federale de Lausanne, Switzerland",
+    "ETH Zurich, Switzerland",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.idiap.ch/en",
