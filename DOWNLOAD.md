@@ -1,6 +1,6 @@
 Dataset **Wildtrack** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/8/l/t4/LJ17aaR3WUXgVyK36WfFCkxuIW6uR9zzqnBZ0ILvr2eMkiCj06QVZWF0PHSk4jHld07HWH0PmRyeg9Cy3BSY1pYMyXzIjypmNmqyZnSc1iMKldvvgg1aK0d52R7x.tar)
+ [Download](https://www.dropbox.com/scl/fi/tepid1np4oyycdue4stof/wildtrack-DatasetNinja.tar?rlkey=kinag8mk3jq39pa5qgv2v9y0r&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
