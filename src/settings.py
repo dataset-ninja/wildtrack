@@ -89,7 +89,7 @@ SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
     "cameras": ["camera 1", "camera 2", "camera 3", "camera 4", "camera 5", "camera 6", "camera 7"],
     "__POSTTEXT__": "Additionally, every label contains information about ***person id***, and ***position id***. Explore it in supervisely labeling tool",
 }
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['multi-camera']
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
